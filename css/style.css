@@ -235,3 +235,15 @@ ul {
 
 .de5s { -webkit-animation-delay: 5s; }
 
+/* Main css starts*/
+.container {
+	width: 940px;
+	margin:0 auto; 
+}
+.header {
+	background: #010101;
+}
+.headerTop {
+	background: #a5adb1;
+	min-height: 35px;
+}
