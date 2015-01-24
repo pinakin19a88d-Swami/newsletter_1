@@ -332,11 +332,18 @@ ul {
 }
 .publisher {
 	color: #7e7d7d;
-	font-size: 10px;
+	font: 10px/12px 'avianbold',sans-serif;
 }
 .issueNo {
 	color: #fff;
+	font: 10px/12px 'avianbold',sans-serif;
 }
 .issueNo span {
 	color: #fc1105;
+}
+.contentSection {
+	background: url("../images/content_bg.jpg") repeat-x;
+}
+.contentWrap {
+	margin: 0 auto;
 }
