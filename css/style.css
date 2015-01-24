@@ -27,7 +27,6 @@ ul {
 .clearfix {
   *zoom: 1;
 }
-
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -48,6 +47,9 @@ ul {
 }
 .show {
   display: block!important;
+}
+.redTxt {
+	color: #fc1105;
 }
 /* ---------- Animation Delays Classes ---------- */
 
@@ -246,4 +248,20 @@ ul {
 .headerTop {
 	background: #a5adb1;
 	min-height: 35px;
+}
+.headerLogo {
+	padding: 35px 0 20px 0;	
+}
+.logoWrap {
+	margin-bottom: 10px;
+}
+.publisher {
+	color: #7e7d7d;
+	font-size: 10px;
+}
+.issueNo {
+	color: #fff;
+}
+.issueNo span {
+	color: #fc1105;
 }
