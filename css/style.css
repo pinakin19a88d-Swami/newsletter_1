@@ -314,8 +314,34 @@ ul {
 
 /* Main css starts*/
 .container {
+	position: relative;
 	width: 940px;
 	margin:0 auto; 
+}
+
+.lp_btn {
+	width: 207px;
+	height: 208px;
+	display: inline-block;
+}
+.management_speak_btn {
+	background: url("../images/management_speak_btn.png") no-repeat;
+}
+.events_btn {
+	background: url("../images/events_btn.png") no-repeat;
+}
+.toc_btn {
+	background: url("../images/toc_btn.png") no-repeat;
+}
+.big_story_btn {
+	background: url("../images/big_story_btn.png") no-repeat;
+}
+.bg-cover {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background: url("../images/landing_page_bg.jpg") no-repeat;
+	background-size: cover;
 }
 .header {
 	background: #010101;
