@@ -17,21 +17,37 @@ html, body, div, a, h1, h2, h3, h4, h5, h6, p, img, dl,
 }
 /* ---------- Commmon styles ---------- */
 body {
-	background-color: #d1d3d4;
-	font-family: 'Muli', sans-serif;
-	font-size: 14px;
-	line-height: 16px;
-}
-
-.positionRelative {
-	position: relative;
-	z-index: 10;
 }
 ul {
 	list-style: none;
 }
 .bold {
 	font-weight: bold;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.pull-right {
+  float: right!important;
+}
+.pull-left {
+  float: left!important;
+}
+.hide {
+  display: none!important;
+}
+.show {
+  display: block!important;
 }
 /* ---------- Animation Delays Classes ---------- */
 
@@ -219,7 +235,3 @@ ul {
 
 .de5s { -webkit-animation-delay: 5s; }
 
-address  a:hover {
-	text-decoration: underline;
-	color: #08C;
-}
