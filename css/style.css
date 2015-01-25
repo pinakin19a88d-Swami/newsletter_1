@@ -529,17 +529,17 @@ a {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 .pageNameWrap {
-	background: url("../images/pageName_bg.jpg") repeat-x;
-	min-height: 66px;
+	background: url("../images/pageName_bg1.png") repeat-x;
+	min-height: 88px;
 }
 .pageHome {
 	background: url("../images/bottom_border_home.png") no-repeat;
-	min-height: 66px;
+	min-height: 88px;
 }
 .pageName {
 	position: absolute;
 	top: -42px;
-	left: 165px;
+	left: 100px;
 }
 .footerWrap {
 	width: 100%;
@@ -605,4 +605,7 @@ a {
 }
 .videoFrame {
 	margin-top: 50px;
+}
+.mainNav {
+	margin-top: -25px;
 }
