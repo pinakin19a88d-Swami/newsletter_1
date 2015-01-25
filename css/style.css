@@ -575,6 +575,7 @@ a {
 
 .chairman_speak .leftSection {
 	border:none;
+	padding-top: 50px;
 }
 .chairman_speak .rightSection {
 	width: 40%;
@@ -582,6 +583,12 @@ a {
 }
 .maroonText {
 	color: #a30e04;
+}
+.chairman_speak h4 {
+	margin-bottom: 5px;
+	font-family: 'avianbold', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.2px;
 }
 .chairman_speak .rightSection h6 {
 	font-family: 'avianregular', sans-serif;
@@ -604,7 +611,7 @@ a {
 	margin-bottom: 12px; 
 }
 .videoFrame {
-	margin-top: 50px;
+	margin-top: 10px;
 }
 .mainNav {
 	margin-top: -25px;
