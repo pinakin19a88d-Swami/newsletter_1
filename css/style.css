@@ -112,10 +112,10 @@ ul {
   clear: both;
 }
 .pull-right {
-  float: right!important;
+  float: right;
 }
 .pull-left {
-  float: left!important;
+  float: left;
 }
 .hide {
   display: none!important;
@@ -318,6 +318,11 @@ ul {
 	width: 940px;
 	margin:0 auto; 
 }
+.contentWrap .container {
+	margin: 0;
+	border: 2px solid #fff;
+	width: 936px;
+}
 
 .lp_btn {
 	width: 207px;
@@ -371,5 +376,34 @@ ul {
 	background: url("../images/content_bg.jpg") repeat-x;
 }
 .contentWrap {
+	width: 1130px;
+	min-height: 450px;
 	margin: 0 auto;
+}
+.leftBorder, .rightBorder {
+	width: 95px;
+	height: 380px;
+	background: url("../images/leftBorder.png")bottom right no-repeat;
+}
+.rightBorder {
+	background: url("../images/rightBorder.png")bottom left no-repeat;
+}
+.leftSection {
+	position: relative;
+	height: 376px;
+	border-right: 2px solid #fff;
+}
+.articleText {
+	position: absolute;
+	top: 270px;
+	left: 0;
+	width: 400px;
+	padding: 0 20px;
+}
+.articleText h3 {
+	font: 24px/26px 'calibriregular',sans-serif;
+	margin-bottom: 8px;
+}
+.articleText p {
+	font: 13px/15px 'calibriregular',sans-serif;
 }
