@@ -616,3 +616,29 @@ a {
 .mainNav {
 	margin-top: -25px;
 }
+
+.toc .rightSection {
+	width: 58%;
+	height: 345px;
+	padding: 20px 0 0 20px;
+	overflow: hidden;
+}
+.toc .rightSection .para {
+	width: 42%;
+	float: left;
+	padding: 10px 20px;
+}
+.toc .rightSection p {
+	font-family: 'calibriregular', sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.2px;
+	margin-bottom: 12px;
+}
+.toc .rightSection h3 {
+	font-family: 'calibribold', sans-serif;
+	font-size: 22px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	padding-left: 20px;
+}
