@@ -129,6 +129,9 @@ ul {
 a {
 	text-decoration: none;
 }
+.leftSpace4 {
+	margin-left: 20px;
+}
 /* ---------- Animation Delays Classes ---------- */
 
 .de1ms { -webkit-animation-delay: 0.1s;
@@ -627,28 +630,59 @@ a {
 	margin-top: -25px;
 }
 
-.toc .rightSection {
+.toc .rightSection,
+.big_story .rightSection {
 	width: 58%;
 	height: 345px;
 	padding: 20px 0 0 20px;
 	overflow: hidden;
 }
-.toc .rightSection .para {
+.toc .rightSection .para,
+.big_story .rightSection .para {
 	width: 42%;
 	float: left;
 	padding: 10px 20px;
 }
-.toc .rightSection p {
+.toc .rightSection p,
+.big_story .rightSection p {
 	font-family: 'calibriregular', sans-serif;
 	font-size: 13px;
 	line-height: 15px;
 	letter-spacing: 0.2px;
 	margin-bottom: 12px;
 }
-.toc .rightSection h3 {
+.toc .rightSection h3,
+.big_story .rightSection h3 {
 	font-family: 'calibribold', sans-serif;
 	font-size: 22px;
 	line-height: 24px;
 	letter-spacing: 0.2px;
 	margin-bottom: 20px;
+}
+
+.big_story .rightSection h4 {
+	font-family: 'calibribold', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	padding-left: 20px;
+}
+.big_story .rightSection h5 {
+	font-family: 'calibribold', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.2px;
+	margin-bottom: 5px;
+	clear: both;
+}
+.big_story .rightSection img {
+	margin-bottom: 10px;
+}
+.big_story .rightSection ol li {
+	font-family: 'calibriregular', sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.2px;
+	/*margin-bottom: 5px;*/
+>>>>>>> b44d5b9a5d7b6ca9a3df522341690ec49a180393
 }
