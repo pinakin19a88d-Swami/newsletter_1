@@ -467,3 +467,35 @@ ul {
 .articleText p {
 	font: 13px/15px 'calibriregular',sans-serif;
 }
+
+.footerWrap {
+	width: 100%;
+	height: 32px;
+	background: #590306;
+}
+.footerWrap p {
+	padding-top: 10px;
+	margin-right: 5px;
+}
+.footerWrap img {
+	position: absolute;
+	margin: 4px 10px 0 0;
+}
+.footerWrap a {
+	padding-top: 10px;
+	margin-left: 35px;
+	text-decoration: none;
+}
+.footerWrap a:hover {
+	color: #999;
+}
+.footerText {
+	display: inline-block;
+	color: #fff;
+	font-family: 'avianregular',sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.emailIcon {
+	background: url("../images/email_icon.png") no-repeat;
+}
