@@ -495,3 +495,62 @@ a {
 	color: #626060;
 	font: 39px/41px 'avianregular',sans-serif;
 }
+.editorialImg a {
+	display: block;
+}
+.chairmanWrap {
+	border-right: 2px solid #fff;
+}
+.nameWrap {
+	font: 14px/16px 'avianbold',sans-serif;
+	width: 95%;
+	position: absolute;
+	top: 165px;
+	background: #fff;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	color: #080000;
+	padding: 3px 3px 3px 10px;
+}
+.videoWrap {
+	position: relative;
+	height: 195px;
+}
+.videoWrap a {
+	display: block;
+}
+.videoWrap a:hover, .editorialImg a:hover {
+	opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.footerWrap {
+	width: 100%;
+	height: 32px;
+	background: #590306;
+}
+.footerWrap p {
+	padding-top: 10px;
+	margin-right: 5px;
+}
+.footerWrap img {
+	position: absolute;
+	margin: 4px 10px 0 0;
+}
+.footerWrap a {
+	padding-top: 10px;
+	margin-left: 35px;
+	text-decoration: none;
+}
+.footerWrap a:hover {
+	color: #999;
+}
+.footerText {
+	display: inline-block;
+	color: #fff;
+	font-family: 'avianregular',sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.emailIcon {
+	background: url("../images/email_icon.png") no-repeat;
+}
