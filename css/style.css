@@ -316,7 +316,7 @@ a {
 .de5s { -webkit-animation-delay: 5s; }
 
 /* Main css starts*/
-.container, .pageName {
+.container, .pageNameWrap {
 	position: relative;
 	width: 940px;
 	margin:0 auto; 
@@ -526,9 +526,18 @@ a {
 	opacity: 0.7;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
-.pageName {
+.pageNameWrap {
 	background: url("../images/pageName_bg.jpg") repeat-x;
 	min-height: 66px;
+}
+.pageHome {
+	background: url("../images/bottom_border_home.png") no-repeat;
+	min-height: 66px;
+}
+.pageName {
+	position: absolute;
+	top: -42px;
+	left: 165px;
 }
 .footerWrap {
 	width: 100%;
