@@ -536,6 +536,10 @@ a {
 	background: url("../images/bottom_border_home.png") no-repeat;
 	min-height: 88px;
 }
+.pageOther {
+	background: url("../images/bottom_border_other.png") no-repeat;
+	min-height: 88px;
+}
 .pageName {
 	position: absolute;
 	top: -42px;
@@ -590,12 +594,18 @@ a {
 	font-size: 16px;
 	letter-spacing: 0.2px;
 }
-.chairman_speak .rightSection h6 {
+.chairman_speak .rightSection h6, .editheading .para h6 {
 	font-family: 'avianregular', sans-serif;
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.2px;
 	margin-bottom: 12px;
+}
+.editheading .para h6 {
+	font-family: 'calibriregular', sans-serif;
+}
+.boldTxt {
+	font-family: 'calibribold', sans-serif!important;
 }
 .chairman_speak .rightSection h6 span {
 	font-family: 'avianbold', sans-serif;
@@ -640,5 +650,5 @@ a {
 	font-size: 22px;
 	line-height: 24px;
 	letter-spacing: 0.2px;
-	padding-left: 20px;
+	margin-bottom: 20px;
 }
