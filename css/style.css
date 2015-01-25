@@ -343,6 +343,8 @@ a {
 .nav {
 	position: relative;
 	width: 690px;
+}
+.bg-cover .nav {
 	top: 520px;
 	margin: 0 auto;
 }
@@ -365,8 +367,8 @@ a {
 .nav > li > a:hover {
 	color: #ff1200;
 }
-.active {
-	color: #ff1200;
+.active a {
+	color: #ff1200!important;
 }
 .management_speak_btn {
 	background: url("../images/management_speak_btn.png") no-repeat;
@@ -569,4 +571,38 @@ a {
 }
 .emailIcon {
 	background: url("../images/email_icon.png") no-repeat;
+}
+
+.chairman_speak .leftSection {
+	border:none;
+}
+.chairman_speak .rightSection {
+	width: 40%;
+	padding: 50px 0 0 80px;
+}
+.maroonText {
+	color: #a30e04;
+}
+.chairman_speak .rightSection h6 {
+	font-family: 'avianregular', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.2px;
+	margin-bottom: 12px;
+}
+.chairman_speak .rightSection h6 span {
+	font-family: 'avianbold', sans-serif;
+}
+.chairman_speak .rightSection h6 a {
+	color: 
+}
+.chairman_speak .rightSection p {
+	font-family: 'calibriregular', sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.2px;
+	margin-bottom: 12px; 
+}
+.videoFrame {
+	margin-top: 50px;
 }
