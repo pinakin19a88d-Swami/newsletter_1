@@ -343,6 +343,8 @@ a {
 .nav {
 	position: relative;
 	width: 690px;
+}
+.bg-cover .nav {
 	top: 520px;
 	margin: 0 auto;
 }
@@ -365,8 +367,8 @@ a {
 .nav > li > a:hover {
 	color: #ff1200;
 }
-.active {
-	color: #ff1200;
+.active a {
+	color: #ff1200!important;
 }
 .management_speak_btn {
 	background: url("../images/management_speak_btn.png") no-repeat;
