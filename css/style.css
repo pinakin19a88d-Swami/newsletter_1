@@ -126,6 +126,9 @@ ul {
 .redTxt {
 	color: #fc1105;
 }
+a {
+	text-decoration: none;
+}
 /* ---------- Animation Delays Classes ---------- */
 
 .de1ms { -webkit-animation-delay: 0.1s;
@@ -352,7 +355,6 @@ ul {
 	background: none;
 }
 .nav > li > a {
-	text-decoration: none;
 	color: #000101;
 	font-family: 'avianregular',sans-serif;
 	font-size: 12px;
@@ -455,15 +457,41 @@ ul {
 }
 .articleText {
 	position: absolute;
-	top: 270px;
+	top: 260px;
 	left: 0;
 	width: 400px;
 	padding: 0 20px;
 }
 .articleText h3 {
 	font: 24px/26px 'calibriregular',sans-serif;
-	margin-bottom: 8px;
+	margin-bottom: 5px;
 }
 .articleText p {
 	font: 13px/15px 'calibriregular',sans-serif;
+	margin-bottom: 5px;
+}
+.articleText a {
+	display: block;
+	float: right;
+	background: #fff;
+	color: #fc0303;
+	font: 13px/15px 'calibriregular',sans-serif;
+	border-radius: 6px;
+	padding: 4px 9px;
+}
+.articleText a:hover {
+	text-decoration: underline;
+}
+.editorialImg {
+	position: relative;
+	width: 492px;
+	height: 179px;
+	border-bottom: 2px solid #fff;
+}
+.editorialImg h1 {
+	position: absolute;
+	top: 70px;
+	right: 10px;
+	color: #626060;
+	font: 39px/41px 'avianregular',sans-serif;
 }
