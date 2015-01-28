@@ -328,13 +328,14 @@ a {
 	margin: 0;
 	border: 2px solid #fff;
 	width: 936px;
+	overflow: hidden;
 }
 .bg-cover > .container {
 	height: 600px;
 }
 .lp_btn {
 	position: absolute;
-	width: 207px;
+	width: 208px;
 	height: 208px;
 	display: inline-block;
 
@@ -345,7 +346,7 @@ a {
 }
 .nav {
 	position: relative;
-	width: 690px;
+	width: 815px;
 }
 .bg-cover .nav {
 	top: 520px;
@@ -372,42 +373,66 @@ a {
 }
 .active a {
 	color: #ff1200!important;
+	font-weight: bold;
 }
 .management_speak_btn {
 	background: url("../images/management_speak_btn.png") no-repeat;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/management_speak_btn.png', sizingMethod='scale');
 	margin: 50px 0 0 260px;
 }
 .management_speak_btn:hover {
+	width: 250px;
+	height: 250px;
 	margin: 25px 0 0 235px;
-	opacity: 0.6;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	z-index: 100;
+	/*opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
 }
 .events_btn {
 	background: url("../images/events_btn.png") no-repeat;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/events_btn.png', sizingMethod='scale');
 	margin: 85px 0 0 473px;
 }
 .events_btn:hover {
-	margin: 60px 0 0 498px;
-	opacity: 0.6;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	width: 250px;
+	height: 250px;
+	/*margin: 60px 0 0 498px;*/
+	margin: 60px 0 0 448px;
+	z-index: 100;
+	/*opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
 }
 .toc_btn {
 	background: url("../images/toc_btn.png") no-repeat;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/toc_btn.png', sizingMethod='scale');
 	margin: 236px 0 0 257px;
 }
 .toc_btn:hover {
-	margin: 261px 0 0 232px;
-	opacity: 0.6;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	width: 250px;
+	height: 250px;
+	/*margin: 261px 0 0 232px;*/
+	margin: 211px 0 0 232px;
+	z-index: 100;
+	/*opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
 }
 .big_story_btn {
 	background: url("../images/big_story_btn.png") no-repeat;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/big_story_btn.png', sizingMethod='scale');
 	margin: 270px 0 0 470px;
 }
 .big_story_btn:hover {
-	margin: 295px 0 0 495px;
-	opacity: 0.6;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	width: 250px;
+	height: 250px;
+	/*margin: 295px 0 0 495px;*/
+	margin: 245px 0 0 445px;
+	z-index: 100;
+	/*opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
+}
+
+.lp_btn {
+	background-size: cover;
 }
 
 .bg-cover {
@@ -432,7 +457,7 @@ a {
 	margin-bottom: 10px;
 }
 .publisher {
-	color: #7e7d7d;
+	color: #fff;
 	font: 10px/12px 'avianbold',sans-serif;
 }
 .issueNo {
@@ -476,6 +501,7 @@ a {
 }
 .articleText p {
 	font: 13px/15px 'calibriregular',sans-serif;
+	text-align: justify;
 	margin-bottom: 5px;
 }
 .articleText a {
@@ -543,6 +569,10 @@ a {
 	background: url("../images/bottom_border_other.png") no-repeat;
 	min-height: 88px;
 }
+.pageMgmt {
+	background: url("../images/bottom_border_mgmt_page.png") no-repeat;
+	min-height: 88px;
+}
 .pageName {
 	position: absolute;
 	top: -42px;
@@ -581,12 +611,13 @@ a {
 }
 
 .chairman_speak .leftSection {
-	border:none;
-	padding-top: 50px;
+	/*border:none;*/
+	height: 326px;
+	padding: 50px 40px 0 40px;
 }
 .chairman_speak .rightSection {
-	width: 40%;
-	padding: 50px 0 0 80px;
+	width: 45%;
+	padding: 55px 50px;
 }
 .maroonText {
 	color: #a30e04;
@@ -619,6 +650,7 @@ a {
 .chairman_speak .rightSection p {
 	font-family: 'calibriregular', sans-serif;
 	font-size: 13px;
+	text-align: justify;
 	line-height: 15px;
 	letter-spacing: 0.2px;
 	margin-bottom: 12px; 
@@ -633,7 +665,7 @@ a {
 .toc .rightSection,
 .big_story .rightSection {
 	width: 58%;
-	height: 345px;
+	height: 355px;
 	padding: 20px 0 0 20px;
 	overflow: hidden;
 }
@@ -647,6 +679,7 @@ a {
 .big_story .rightSection p {
 	font-family: 'calibriregular', sans-serif;
 	font-size: 13px;
+	text-align: justify;
 	line-height: 15px;
 	letter-spacing: 0.2px;
 	margin-bottom: 12px;
@@ -684,5 +717,4 @@ a {
 	line-height: 15px;
 	letter-spacing: 0.2px;
 	/*margin-bottom: 5px;*/
->>>>>>> b44d5b9a5d7b6ca9a3df522341690ec49a180393
 }
