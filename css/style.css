@@ -597,14 +597,31 @@ a {
 	text-decoration: none;
 }
 .footerWrap a:hover {
-	color: #999;
+	color: #eee;
+}
+.wtu {
+	float: left;
+}
+.dnd {
+	float: right;
 }
 .footerText {
 	display: inline-block;
-	color: #fff;
+	color: #aaa;
 	font-family: 'avianregular',sans-serif;
 	font-size: 13px;
 	letter-spacing: 1px;
+}
+.footerText2 {
+	/*display: inline-block;*/
+	color: #aaa;
+	font-family: 'avianregular',sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	/*float: right;*/
+}
+.footerText2 a {
+	margin-left: 0;
 }
 .emailIcon {
 	background: url("../images/email_icon.png") no-repeat;
@@ -613,10 +630,10 @@ a {
 .chairman_speak .leftSection {
 	/*border:none;*/
 	height: 326px;
-	padding: 50px 40px 0 40px;
+	padding: 50px 55px 0 55px;
 }
 .chairman_speak .leftSection h6 {
-	margin-top: 35px;
+	margin-top: 10px;
 	font-family: 'avianbold', sans-serif;
 	font-size: 14px;
 	letter-spacing: 0.2px;
@@ -710,8 +727,8 @@ a {
 }
 .big_story .rightSection h5 {
 	font-family: 'calibribold', sans-serif;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 16px;
+	line-height: 18px;
 	letter-spacing: 0.2px;
 	margin-bottom: 5px;
 	clear: both;
@@ -719,10 +736,15 @@ a {
 .big_story .rightSection img {
 	margin-bottom: 10px;
 }
+.big_story .rightSection ol {
+	float: left;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
 .big_story .rightSection ol li {
 	font-family: 'calibriregular', sans-serif;
-	font-size: 13px;
-	line-height: 15px;
+	font-size: 15px;
+	line-height: 17px;
 	letter-spacing: 0.2px;
 	/*margin-bottom: 5px;*/
 }
