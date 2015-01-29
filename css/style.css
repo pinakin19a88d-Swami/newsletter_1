@@ -615,9 +615,17 @@ a {
 	height: 326px;
 	padding: 50px 40px 0 40px;
 }
+.chairman_speak .leftSection h6 {
+	margin-top: 35px;
+	font-family: 'avianbold', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	/*float: right;*/
+}
 .chairman_speak .rightSection {
-	width: 45%;
-	padding: 55px 50px;
+	width: 48%;
+	height: 320px;
+	padding: 55px 25px 0 50px;
 }
 .maroonText {
 	color: #a30e04;
