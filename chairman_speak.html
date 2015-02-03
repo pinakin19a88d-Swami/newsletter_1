@@ -9,6 +9,9 @@
 		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"  type="text/css"/>
 		<link rel="stylesheet" href="css/style.css"  type="text/css"/>
 
+		<!-- jwplayer -->
+		<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+		<script type="text/javascript">jwplayer.key="4d/aeknNsWjj1m4OaNyxBDAyZz3Ns0xdGB0wxw==";</script>
 	</head>
 
 	<body>
@@ -37,7 +40,23 @@
 		</div><!-- headerLogo ends -->
 	</div><!-- header -->
 
-	<div class="contentSection animated fadeIn de2ms">
+	<div class="contentSection">
+
+		<div class="container clearfix">
+			<div class="topLeftBorder"></div>
+			<div class="topRightBorder"></div>
+			
+			<ul class="nav pull-right mainNav">
+				<li class="animated fadeInUp de8ms"><a href="index.html">Home</a></li>
+				<!-- <li class="animated fadeInUp de1s"><a href="home.html">Home</a></li> -->
+				<li class="active animated fadeInUp de12ms"><a href="director_speak.html">Management Speak</a></li>
+				<li class="animated fadeInUp de14ms"><a href="editorial.html">Editorial</a></li>
+				<li class="animated fadeInUp de16ms"><a href="big_story.html">The Big Story</a></li>
+				<li class="animated fadeInUp de18ms"><a href="toc.html">Think TOC - Live TOC</a></li>
+				<li class="animated fadeInUp de2s"><a href="events.html">Events</a></li>
+			</ul><!-- nav -->
+
+		</div><!-- container -->
 
 		<div class="contentWrap clearfix">
 
@@ -48,15 +67,27 @@
 				<div class="leftSection pull-left">
 
 					<h4 class="maroonText">Chairman Speak</h4>
-					<iframe class="videoFrame" width="296" height="220" src="https://www.youtube.com/embed/Y_oT_mRpJBc" frameborder="0" allowfullscreen></iframe>
+					<div id="myElement">Loading the player...</div>
 
+					<script type="text/javascript">
+					    jwplayer("myElement").setup({
+					        file: "videos/chairman_speak.mp4",
+					        image: "videos/chairman_img.jpg",
+					        width: 295,
+    						height: 220
+					    });
+					</script>
+
+					<div class="directorImgLink">
+						<a href="director_speak.html"><img src="images/speakers/director_img.jpg" alt="Director Speak"></a>
+					</div>
 					<h6>Watch the <a href="director_speak.html" class="maroonText">Director Speak</a></h6>
 					
 				</div><!-- leftSection -->
 
 				<div class="rightSection mCustomScrollbar pull-left animated fadeInDown de6ms">					
 
-					<h6 class="maroonText"><span>Chairman</span> speaks about the vision for <span>FSPL</span> &amp; the path to achieve it.</h6>
+					<h6 class="maroonText"><span>Chairman, Mr. S.S. Pandit</span> speaks about the vision for <span>FSPL</span> &amp; the path to achieve it.</h6>
 
 					<p>
 						Dear all,<br/><br/>This is my second opportunity to talk to you after a time of about six to eight months. I addressed all of you about a wonderful grand dream I am putting for our company. My dream is can we move our company up to a sales of three billion dollars from current level of 850 Crore rupees. A twenty times jump in a short period of time. As I explained to all of you that we can embrace this vision only because of our past experience of TOC where we could really gallop with a phenomenal speed and that gives me the confidence of embracing a bigger vision which is 3 billion dollar plus in sales.
@@ -100,21 +131,9 @@
 			</div><!-- pageNameWrap -->
 
 		</div><!-- contentWrap -->
-
-			<div class="container clearfix">
-				<ul class="nav pull-right">
-					<li class="animated fadeInUp de8ms"><a href="index.html">Opening Page</a></li>
-					<li class="animated fadeInUp de1s"><a href="home.html">Home</a></li>
-					<li class="active animated fadeInUp de12ms"><a href="director_speak.html">Management Speak</a></li>
-					<li class="animated fadeInUp de14ms"><a href="editorial.html">Editorial</a></li>
-					<li class="animated fadeInUp de16ms"><a href="big_story.html">The Big Story</a></li>
-					<li class="animated fadeInUp de18ms"><a href="toc.html">Think TOC - Live TOC</a></li>
-					<li class="animated fadeInUp de2s"><a href="events.html">Events</a></li>
-				</ul><!-- container -->
-			</div>
 	</div><!-- contentSection -->
 	
-	<div class="footerWrap animated fadeIn de2ms">
+	<div class="footerWrap">
 		<div class="container">
 			<div class="wtu">
 				<p class="footerText">Write to us</p>
@@ -136,7 +155,7 @@
 	<script type="text/javascript">
 
 		$(".rightSection").mCustomScrollbar({
-	        theme:"inset-3",
+	        theme:"dark-2",
 	        scrollButtons:{ enable: true },
 	        keyboard:{ enable: true }
 	    });

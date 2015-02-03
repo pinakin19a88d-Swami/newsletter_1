@@ -9,6 +9,9 @@
 		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"  type="text/css"/>
 		<link rel="stylesheet" href="css/style.css"  type="text/css"/>
 
+		<!-- jwplayer -->
+		<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+		<script type="text/javascript">jwplayer.key="4d/aeknNsWjj1m4OaNyxBDAyZz3Ns0xdGB0wxw==";</script>
 	</head>
 
 	<body>
@@ -39,6 +42,21 @@
 
 	<div class="contentSection animated fadeIn de2ms">
 
+		<div class="container clearfix">
+			<div class="topLeftBorder"></div>
+			<div class="topRightBorder"></div>
+			
+			<ul class="nav pull-right mainNav">
+				<li class="animated fadeInUp de8ms"><a href="index.html">Home</a></li>
+				<!-- <li class="animated fadeInUp de1s"><a href="home.html">Home</a></li> -->
+				<li class="active animated fadeInUp de12ms"><a href="director_speak.html">Management Speak</a></li>
+				<li class="animated fadeInUp de14ms"><a href="editorial.html">Editorial</a></li>
+				<li class="animated fadeInUp de16ms"><a href="big_story.html">The Big Story</a></li>
+				<li class="animated fadeInUp de18ms"><a href="toc.html">Think TOC - Live TOC</a></li>
+				<li class="animated fadeInUp de2s"><a href="events.html">Events</a></li>
+			</ul><!-- nav -->
+		</div><!-- container -->
+
 		<div class="contentWrap clearfix">
 
 			<div class="leftBorder pull-left"></div><!-- leftBorder -->
@@ -48,15 +66,27 @@
 				<div class="leftSection pull-left">
 
 					<h4 class="maroonText">Director Speak</h4>
-					<iframe class="videoFrame" width="296" height="220" src="https://www.youtube.com/embed/U_lKiXBeh4s" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div id="myElement">Loading the player...</div>
 
+					<script type="text/javascript">
+					    jwplayer("myElement").setup({
+					        file: "videos/director_speak.mp4",
+					        image: "videos/director_img.jpg",
+					        width: 295,
+    						height: 220
+					    });
+					</script>
+
+					<div class="chairmanImgLink">
+						<a href="chairman_speak.html"><img src="images/speakers/chairman_img.jpg" alt="Chairman Speak"></a>
+					</div>
 					<h6>Watch the <a href="chairman_speak.html" class="maroonText">Chairman Speak</a></h6>
 					
 				</div><!-- leftSection -->
 
 				<div class="rightSection mCustomScrollbar pull-left animated fadeInDown de6ms">
 
-					<h6 class="maroonText"><span>Mr. Niranjan Kirloskar</span> speaks about<br/> The launch of <span>FLEET POST</span>, as the new initaitive towards an interconnected organization.</h6>
+					<h6 class="maroonText"><span>Mr. Niranjan Kirloskar</span> speaks about<br/> the launch of <span>FLEET POST</span>, as the new initaitive towards an interconnected organization.</h6>
 
 					<p>
 						Hello everyone! It's once again a pleasure to talk to each one of you. We have always been meeting for the yearly communication which we as an organization, internally thought about it and came to a conclusion that a year is a very long period to meet all of you.
@@ -104,18 +134,6 @@
 			</div><!-- pageNameWrap -->
 
 		</div><!-- contentWrap -->
-
-			<div class="container clearfix">
-				<ul class="nav pull-right">
-					<li class="animated fadeInUp de8ms"><a href="index.html">Opening Page</a></li>
-					<li class="animated fadeInUp de1s"><a href="home.html">Home</a></li>
-					<li class="active animated fadeInUp de12ms"><a href="director_speak.html">Management Speak</a></li>
-					<li class="animated fadeInUp de14ms"><a href="editorial.html">Editorial</a></li>
-					<li class="animated fadeInUp de16ms"><a href="big_story.html">The Big Story</a></li>
-					<li class="animated fadeInUp de18ms"><a href="toc.html">Think TOC - Live TOC</a></li>
-					<li class="animated fadeInUp de2s"><a href="events.html">Events</a></li>
-				</ul><!-- container -->
-			</div>
 	</div><!-- contentSection -->
 	
 	<div class="footerWrap animated fadeIn de2ms">
@@ -140,7 +158,7 @@
 	<script type="text/javascript">
 
 		$(".rightSection").mCustomScrollbar({
-	        theme:"inset-3",
+	        theme:"dark-2",
 	        scrollButtons:{ enable: true },
 	        keyboard:{ enable: true }
 	    });

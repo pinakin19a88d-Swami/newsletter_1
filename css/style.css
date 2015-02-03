@@ -344,12 +344,20 @@ a {
 		 -o-transition: all 0.3s ease;
 			transition: all 0.3s ease;
 }
+.hpRedBox {
+	position: absolute;
+	width: 86px;
+	height: 89px;
+	background: url("../images/homePageRedBox.png") no-repeat;
+	margin: 199px 0 0 430px;
+	z-index: 5;
+}
 .nav {
 	position: relative;
-	width: 815px;
+	width: 570px;
 }
 .bg-cover .nav {
-	top: 520px;
+	/*width: 680px;*/
 	margin: 0 auto;
 }
 .nav > li {
@@ -364,40 +372,58 @@ a {
 	color: #000101;
 	font-family: 'avianregular',sans-serif;
 	font-size: 12px;
-	letter-spacing: 1px;
-	padding: 31px 15px;
+	/*letter-spacing: 1px;*/
+	padding: 31px 11px;
 	display: block;
 }
 .nav > li > a:hover {
 	color: #ff1200;
 }
+.topLeftBorder {
+	width: 370px;
+	background: url(../images/topLeftBorder.png) no-repeat;
+}
+.topRightBorder {
+	width: 2px;
+	right: 0;
+	background: url(../images/topRightBorder.png) no-repeat;
+}
+.topLeftBorder,
+.topRightBorder {
+	position: absolute;
+	height: 45px;
+	bottom: 0px;
+	z-index: 200;
+}
 .active a {
 	color: #ff1200!important;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .management_speak_btn {
 	background: url("../images/management_speak_btn.png") no-repeat;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/management_speak_btn.png', sizingMethod='scale');
-	margin: 50px 0 0 260px;
+	margin: 0 0 0 309px;
+	z-index: 6;
 }
 .management_speak_btn:hover {
 	width: 250px;
 	height: 250px;
-	margin: 25px 0 0 235px;
-	z-index: 100;
+	margin: 0 0 0 309px;
+	z-index: 50;
 	/*opacity: 0.6;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
 }
 .events_btn {
 	background: url("../images/events_btn.png") no-repeat;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/events_btn.png', sizingMethod='scale');
-	margin: 85px 0 0 473px;
+	margin: 80px 0 0 507px;
+	z-index: 6;
 }
 .events_btn:hover {
 	width: 250px;
 	height: 250px;
 	/*margin: 60px 0 0 498px;*/
-	margin: 60px 0 0 448px;
+	margin: 120px 0 0 460px;
 	z-index: 100;
 	/*opacity: 0.6;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
@@ -405,13 +431,13 @@ a {
 .toc_btn {
 	background: url("../images/toc_btn.png") no-repeat;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/toc_btn.png', sizingMethod='scale');
-	margin: 236px 0 0 257px;
+	margin: 197px 0 0 230px;
 }
 .toc_btn:hover {
 	width: 250px;
 	height: 250px;
 	/*margin: 261px 0 0 232px;*/
-	margin: 211px 0 0 232px;
+	margin: 157px 0 0 270px;
 	z-index: 100;
 	/*opacity: 0.6;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
@@ -419,13 +445,14 @@ a {
 .big_story_btn {
 	background: url("../images/big_story_btn.png") no-repeat;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/big_story_btn.png', sizingMethod='scale');
-	margin: 270px 0 0 470px;
+	margin: 277px 0 0 429px;
+	z-index: 4;
 }
 .big_story_btn:hover {
 	width: 250px;
 	height: 250px;
 	/*margin: 295px 0 0 495px;*/
-	margin: 245px 0 0 445px;
+	margin: 237px 0 0 389px;
 	z-index: 100;
 	/*opacity: 0.6;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
@@ -602,6 +629,9 @@ a {
 .wtu {
 	float: left;
 }
+.wtu p {
+	float: left;
+}
 .dnd {
 	float: right;
 }
@@ -616,7 +646,7 @@ a {
 	/*display: inline-block;*/
 	color: #aaa;
 	font-family: 'avianregular',sans-serif;
-	font-size: 13px;
+	font-size: 10px;
 	letter-spacing: 1px;
 	/*float: right;*/
 }
@@ -629,8 +659,9 @@ a {
 
 .chairman_speak .leftSection {
 	/*border:none;*/
-	height: 326px;
-	padding: 50px 55px 0 55px;
+	height: 440px;
+	/*padding: 50px 55px 0 55px;*/
+	padding: 50px 35px 0 36px;
 }
 .chairman_speak .leftSection h6 {
 	margin-top: 10px;
@@ -640,8 +671,8 @@ a {
 	/*float: right;*/
 }
 .chairman_speak .rightSection {
-	width: 48%;
-	height: 320px;
+	width: 52%;
+	height: 420px;
 	padding: 55px 25px 0 50px;
 }
 .maroonText {
@@ -683,8 +714,28 @@ a {
 .videoFrame {
 	margin-top: 10px;
 }
+.directorImgLink,
+.chairmanImgLink {
+	position: relative;
+	width: 125px;
+	height: 99px;
+	margin: 10px 0 0 0;
+	border: 3px solid #444;
+}
+.directorImgLink a,
+.chairmanImgLink a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.directorImgLink a img,
+.chairmanImgLink a img {
+	width: 100%;
+	height: 100%;
+}
 .mainNav {
-	margin-top: -25px;
+	/*margin-top: -25px;*/
+	background: url("../images/nav_bg.png") no-repeat;
 }
 
 .toc .rightSection,
@@ -747,4 +798,8 @@ a {
 	line-height: 17px;
 	letter-spacing: 0.2px;
 	/*margin-bottom: 5px;*/
+}
+
+#myElement_logo {
+	opacity: 0!important;
 }
