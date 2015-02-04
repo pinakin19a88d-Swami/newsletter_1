@@ -346,8 +346,8 @@ a {
 }
 .hpRedBox {
 	position: absolute;
-	width: 86px;
-	height: 89px;
+	width: 114px;
+	height: 117px;
 	background: url("../images/homePageRedBox.png") no-repeat;
 	margin: 199px 0 0 430px;
 	z-index: 5;
@@ -402,7 +402,7 @@ a {
 .management_speak_btn {
 	background: url("../images/management_speak_btn.png") no-repeat;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/management_speak_btn.png', sizingMethod='scale');
-	margin: 0 0 0 309px;
+	margin: 0 0 0 336px;
 	z-index: 6;
 }
 .management_speak_btn:hover {
@@ -416,7 +416,7 @@ a {
 .events_btn {
 	background: url("../images/events_btn.png") no-repeat;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/events_btn.png', sizingMethod='scale');
-	margin: 80px 0 0 507px;
+	margin: 108px 0 0 536px;
 	z-index: 6;
 }
 .events_btn:hover {
@@ -445,7 +445,7 @@ a {
 .big_story_btn {
 	background: url("../images/big_story_btn.png") no-repeat;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/big_story_btn.png', sizingMethod='scale');
-	margin: 277px 0 0 429px;
+	margin: 305px 0 0 429px;
 	z-index: 4;
 }
 .big_story_btn:hover {
@@ -629,22 +629,28 @@ a {
 .wtu {
 	float: left;
 }
+.wtu img {
+	position: absolute;
+}
+.wtu a {
+	margin-left: 30px;
+}
 .wtu p {
-	float: left;
+	display: inline;
 }
 .dnd {
 	float: right;
 }
 .footerText {
 	display: inline-block;
-	color: #aaa;
+	color: #ddd;
 	font-family: 'avianregular',sans-serif;
-	font-size: 13px;
-	letter-spacing: 1px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
 }
 .footerText2 {
 	/*display: inline-block;*/
-	color: #aaa;
+	color: #fff;
 	font-family: 'avianregular',sans-serif;
 	font-size: 10px;
 	letter-spacing: 1px;
@@ -787,12 +793,18 @@ a {
 .big_story .rightSection img {
 	margin-bottom: 10px;
 }
-.big_story .rightSection ol {
+.big_story .rightSection ul {
 	float: left;
-	padding-left: 30px;
 	margin-bottom: 20px;
+	list-style: disc;
 }
-.big_story .rightSection ol li {
+.big_story .rightSection ul.teamList1 {
+	padding-left: 20px;
+}
+.big_story .rightSection ul.teamList2 {
+	padding-left: 60px;
+}
+.big_story .rightSection ul li {
 	font-family: 'calibriregular', sans-serif;
 	font-size: 15px;
 	line-height: 17px;
